@@ -88,9 +88,9 @@ body {
   width: 100%;
   max-width: 30rem;
   border-radius: 0.7rem;
-  border-radius: 0.7rem;
-  /* overflow: hidden; */
+  overflow: hidden;        /* uncomment this — explained below */
 }
+
 
 .neighbour::before {
   content: 'Neighbour country';
@@ -111,7 +111,7 @@ body {
 }
 
 .country__img {
-  width: 30rem;
+  width: 100%;             /* was: 30rem */
   height: 17rem;
   object-fit: cover;
   background-color: #eee;
